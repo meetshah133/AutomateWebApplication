@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="158200" started-at="2020-07-19T15:34:30 IST" finished-at="2020-07-19T15:37:08 IST">
+    <groups>
+    </groups>
+    <test name="RegistrationTest" duration-ms="37205" started-at="2020-07-19T15:34:30 IST" finished-at="2020-07-19T15:35:07 IST">
+      <class name="test.RegistrationTest">
+        <test-method status="PASS" signature="redirectToRegister()[pri:0, instance:test.RegistrationTest@5bc79255]" name="redirectToRegister" is-config="true" duration-ms="25238" started-at="2020-07-19T15:34:30 IST" finished-at="2020-07-19T15:34:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- redirectToRegister -->
+        <test-method status="PASS" signature="register()[pri:0, instance:test.RegistrationTest@5bc79255]" name="register" duration-ms="11409" started-at="2020-07-19T15:34:55 IST" finished-at="2020-07-19T15:35:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.RegistrationTest@5bc79255]" name="closeBrowser" is-config="true" duration-ms="498" started-at="2020-07-19T15:35:06 IST" finished-at="2020-07-19T15:35:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.RegistrationTest -->
+    </test> <!-- RegistrationTest -->
+    <test name="LoginTest" duration-ms="60891" started-at="2020-07-19T15:35:07 IST" finished-at="2020-07-19T15:36:08 IST">
+      <class name="test.LoginTest">
+        <test-method status="PASS" signature="redirectToLogin()[pri:0, instance:test.LoginTest@6c49835d]" name="redirectToLogin" is-config="true" duration-ms="26800" started-at="2020-07-19T15:35:07 IST" finished-at="2020-07-19T15:35:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- redirectToLogin -->
+        <test-method status="PASS" signature="invalidLogin()[pri:0, instance:test.LoginTest@6c49835d]" name="invalidLogin" duration-ms="21799" started-at="2020-07-19T15:35:34 IST" finished-at="2020-07-19T15:35:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method status="PASS" signature="login()[pri:0, instance:test.LoginTest@6c49835d]" name="login" duration-ms="9764" started-at="2020-07-19T15:35:56 IST" finished-at="2020-07-19T15:36:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.LoginTest@6c49835d]" name="closeBrowser" is-config="true" duration-ms="2518" started-at="2020-07-19T15:36:05 IST" finished-at="2020-07-19T15:36:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.LoginTest -->
+    </test> <!-- LoginTest -->
+    <test name="SearchTest" duration-ms="25534" started-at="2020-07-19T15:36:08 IST" finished-at="2020-07-19T15:36:33 IST">
+      <class name="test.SearchTest">
+        <test-method status="PASS" signature="startWebsite()[pri:0, instance:test.SearchTest@76707e36]" name="startWebsite" is-config="true" duration-ms="19432" started-at="2020-07-19T15:36:08 IST" finished-at="2020-07-19T15:36:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startWebsite -->
+        <test-method status="PASS" signature="searchProduct()[pri:0, instance:test.SearchTest@76707e36]" name="searchProduct" duration-ms="3667" started-at="2020-07-19T15:36:27 IST" finished-at="2020-07-19T15:36:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.SearchTest@76707e36]" name="closeBrowser" is-config="true" duration-ms="2429" started-at="2020-07-19T15:36:31 IST" finished-at="2020-07-19T15:36:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.SearchTest -->
+    </test> <!-- SearchTest -->
+    <test name="AddToCartTest" duration-ms="34505" started-at="2020-07-19T15:36:33 IST" finished-at="2020-07-19T15:37:08 IST">
+      <class name="test.CartTesting">
+        <test-method status="PASS" signature="startWebsite()[pri:0, instance:test.CartTesting@711f39f9]" name="startWebsite" is-config="true" duration-ms="30693" started-at="2020-07-19T15:36:33 IST" finished-at="2020-07-19T15:37:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startWebsite -->
+        <test-method status="PASS" signature="addToCart()[pri:0, instance:test.CartTesting@711f39f9]" name="addToCart" duration-ms="1344" started-at="2020-07-19T15:37:04 IST" finished-at="2020-07-19T15:37:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.CartTesting@711f39f9]" name="closeBrowser" is-config="true" duration-ms="2460" started-at="2020-07-19T15:37:06 IST" finished-at="2020-07-19T15:37:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.CartTesting -->
+    </test> <!-- AddToCartTest -->
+  </suite> <!-- Suite -->
+</testng-results>
